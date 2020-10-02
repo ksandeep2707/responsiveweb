@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+color:maroon;
+background-color:khaki;
+    text-decoration: underline;
+    font-weight: bold;
+font-family:verdana;
+    font-size: 65px;
+}
+body{
+  margin-left:10%;
+  margin-right: 7%;
+  background-color:aqua;
+
+}
+
+h5 {
+text-align:center;
+                	color:red;
+                font-size:150%; 
+                font-family:Tahoma, Geneva, sans-serif;
+    display: inline;
+}
+
+.resp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    border: 3px solid black;
+    margin: 25px;
+    width: 400px;
+    height: 250px;
+    transition: all .3s;
+}
+
+img:hover{
+    width:500px;
+    height: 300px;
+     transform: translate3d(10px, 10px, 10px); 
+   
+    opacity: .9;
+}
